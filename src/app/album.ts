@@ -4,5 +4,5 @@ export interface Album {
   name:string;
   releaseDate:string;
   coverimage:string;
-  tracks:Tack[];
+  track:Tack[];
 }

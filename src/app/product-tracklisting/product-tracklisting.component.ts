@@ -10,7 +10,7 @@ import { Album } from '../album';
 })
 export class ProductTracklistingComponent implements OnInit {
 
-  albumInfo: Admin;
+  albumInfo: Album;
 
   constructor(private _productService: ProductService ) { }
 
